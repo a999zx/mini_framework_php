@@ -1,0 +1,7 @@
+/.vagrant/
+/laravel/
+/laravelapp/
+/.metadata/
+/RemoteSystemsTempFiles/
+/composer.phar
+/chef-repo/nodes/localhost.json
