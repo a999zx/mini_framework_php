@@ -39,7 +39,7 @@ class View
         return $content;
     }
 
-    public function excape($string)
+    public function escape($string)
     {
         return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
     }
