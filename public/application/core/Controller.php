@@ -1,6 +1,6 @@
 <?php
 
-abstract class controller
+abstract class Controller
 {
     protected $controller_name;
     protected $action_name;
@@ -9,7 +9,7 @@ abstract class controller
     protected $response;
     protected $session;
     protected $db_manager;
-    protected $auth_actions;
+    protected $auth_actions = array();
 
     public function __construct($application)
     {
