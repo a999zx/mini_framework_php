@@ -1,5 +1,6 @@
 <?php
 require '../bootstrap.php';
+require '../MiniBlogApplication.php';
 
-echo 'hello!';
-exit;
+$app = new MiniBlogApplication(false);
+$app->run();
